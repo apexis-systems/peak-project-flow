@@ -10,7 +10,13 @@ const plans = [
     monthlyPrice: "₹10,000",
     annualPrice: "₹6,500",
     desc: "Single project access",
-    features: ["Basic reporting", "Limited storage", "One-time payment", "Validity: 90 days"],
+    features: [
+      "Single Project Access",
+      "Client Viewership",
+      "Basic Reporting",
+      "5GB Storage",
+      "One-time purchase",
+    ],
     cta: "Buy Now",
     highlighted: false,
     outline: false,
@@ -20,7 +26,13 @@ const plans = [
     monthlyPrice: "₹35,000",
     annualPrice: "₹22,750",
     desc: "Up to 5 team members",
-    features: ["Standard reporting", "Basic client dashboard", "Email support"],
+    features: [
+      "Up to 5 Team Members",
+      "Client Viewership",
+      "Structured Reporting",
+      "25GB Storage",
+      "Basic Project Dashboard",
+    ],
     cta: "Get Started",
     highlighted: false,
     outline: false,
@@ -31,7 +43,15 @@ const plans = [
     annualPrice: "₹39,000",
     desc: "For scaling teams",
     badge: "Most Popular",
-    features: ["Unlimited projects", "AI-assisted reporting", "Advanced dashboards", "Media documentation", "Role-based access", "Priority support"],
+    features: [
+      "Unlimited Projects",
+      "Client Viewership",
+      "AI-Assisted Reports",
+      "Role-Based Access",
+      "100GB Storage",
+      "Media Documentation",
+      "Priority Support",
+    ],
     cta: "Upgrade to Pro",
     highlighted: true,
     outline: false,
@@ -41,7 +61,14 @@ const plans = [
     monthlyPrice: "Custom",
     annualPrice: "Custom",
     desc: "Custom integrations",
-    features: ["API access", "Dedicated onboarding", "Advanced security controls", "Custom SLA"],
+    features: [
+      "Unlimited Projects",
+      "Client Viewership",
+      "Custom Workflows",
+      "Dedicated Support",
+      "API Access",
+      "1TB Storage",
+    ],
     cta: "Contact Sales",
     highlighted: false,
     outline: true,
@@ -84,7 +111,7 @@ export function PricingSection() {
           {plans.map((plan, i) => (
             <AnimatedSection key={plan.name} delay={i * 0.1}>
               <div
-                className={`relative rounded-xl border p-6 h-full flex flex-col transition-all duration-300 hover:shadow-lg ${
+                className={`relative rounded-xl border p-6 h-full flex flex-col transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${
                   plan.highlighted
                     ? "border-primary bg-primary/5 shadow-lg shadow-primary/10"
                     : "border-border bg-card hover:shadow-primary/5"
@@ -96,7 +123,8 @@ export function PricingSection() {
                   </span>
                 )}
                 <h3 className="font-display text-lg font-bold">{plan.name}</h3>
-                <p className="text-sm text-muted-foreground mt-1 mb-4">{plan.desc}</p>
+                <p className="text-sm text-muted-foreground mt-1">{plan.desc}</p>
+                <p className="text-xs font-semibold text-primary mt-2 mb-4">14 Day Free Trial</p>
                 <div className="mb-6">
                   <motion.span
                     key={annual ? "annual" : "monthly"}
@@ -117,6 +145,14 @@ export function PricingSection() {
                       <span>{f}</span>
                     </li>
                   ))}
+                  <li className="flex items-start gap-2 text-sm">
+                    <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                    <span>14-Day Free Trial</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-sm">
+                    <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                    <span>Secure Data Storage</span>
+                  </li>
                 </ul>
                 <Button
                   variant={plan.highlighted ? "hero" : plan.outline ? "hero-outline" : "default"}
