@@ -1,15 +1,43 @@
 export function Footer() {
   return (
-    <footer className="py-12 border-t border-border">
+    <footer className="py-16 border-t border-border">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="font-display text-xl font-bold">Apexis</div>
-          <div className="flex gap-8 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="#" className="hover:text-foreground transition-colors">Contact</a>
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
+          {/* Product */}
+          <div>
+            <h4 className="font-display font-semibold text-sm mb-4">Product</h4>
+            <div className="flex flex-col gap-3 text-sm text-muted-foreground">
+              <a href="#solution" className="hover:text-foreground transition-colors">How It Works</a>
+              <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
+              <a href="#" className="hover:text-foreground transition-colors">Security</a>
+              <a href="#about" className="hover:text-foreground transition-colors">About Apexis</a>
+            </div>
           </div>
-          <p className="text-xs text-muted-foreground">
+
+          {/* Company */}
+          <div>
+            <h4 className="font-display font-semibold text-sm mb-4">Company</h4>
+            <div className="flex flex-col gap-3 text-sm text-muted-foreground">
+              <a href="#" className="hover:text-foreground transition-colors">Contact</a>
+              <a href="#" className="hover:text-foreground transition-colors">Careers</a>
+              <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
+              <a href="#" className="hover:text-foreground transition-colors">Terms</a>
+            </div>
+          </div>
+
+          {/* Statement */}
+          <div>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Structured reporting for serious construction teams.
+            </p>
+            <p className="mt-4 font-display font-bold text-gradient-gold">
+              Record. Report. Release.
+            </p>
+          </div>
+        </div>
+
+        <div className="border-t border-border pt-8">
+          <p className="text-xs text-muted-foreground text-center">
             © {new Date().getFullYear()} Apexis. All rights reserved.
           </p>
         </div>

@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "Does this replace project management tools?",
-    a: "Apexis complements your existing project management tools. We focus specifically on site documentation, structured reporting, and controlled client visibility — the execution layer that most PM tools miss.",
+    a: "Apexis complements your existing project management tools. We focus specifically on site documentation, structured reporting, and controlled client visibility — the execution layer that most project management tools miss.",
   },
   {
     q: "Is my data secure?",
