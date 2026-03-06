@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Is this suitable for small firms?",
-    a: "Yes. Our Starter plan is designed for teams of up to 5 members. Whether you're a solo architect or a growing firm, Apexis scales with your needs.",
+    a: "Yes. Our Starter plan is designed for up to 5 projects. Whether you're a solo architect or a growing firm, Apexis scales with your needs.",
   },
   {
     q: "When is the full launch?",
