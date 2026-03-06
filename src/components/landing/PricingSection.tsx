@@ -8,7 +8,7 @@ const plans = [
   {
     name: "One-Time Buy",
     monthlyPrice: "₹10,000",
-    annualPrice: "₹6,500",
+    annualPrice: "₹10,000",
     desc: "Single project access",
     features: [
       "Single Project Access",
@@ -25,9 +25,9 @@ const plans = [
     name: "Starter",
     monthlyPrice: "₹35,000",
     annualPrice: "₹22,750",
-    desc: "Up to 5 team members",
+    desc: "Up to 5 projects",
     features: [
-      "Up to 5 Team Members",
+      "Up to 5 Projects",
       "Client Viewership",
       "Structured Reporting",
       "25GB Storage",
@@ -41,7 +41,7 @@ const plans = [
     name: "Professional",
     monthlyPrice: "₹60,000",
     annualPrice: "₹39,000",
-    desc: "For scaling teams",
+    desc: "Up to 10 projects",
     badge: "Most Popular",
     features: [
       "Unlimited Projects",
@@ -60,14 +60,13 @@ const plans = [
     name: "Enterprise",
     monthlyPrice: "Custom",
     annualPrice: "Custom",
-    desc: "Custom integrations",
+    desc: "Above 10 projects",
     features: [
       "Unlimited Projects",
       "Client Viewership",
       "Custom Workflows",
       "Dedicated Support",
-      "API Access",
-      "1TB Storage",
+      "Above 100GB Storage",
     ],
     cta: "Contact Sales",
     highlighted: false,

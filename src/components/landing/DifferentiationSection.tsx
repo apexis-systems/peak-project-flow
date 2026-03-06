@@ -25,18 +25,18 @@ export function DifferentiationSection() {
                     <span className="text-sm font-medium text-muted-foreground/60">Chat Messages</span>
                   </div>
                   <div className="space-y-2">
-                    {["Site photo sent ✓✓", "any update on 3rd floor?", "will send report tmrw"].map((msg) => (
+                    {["Site photo sent ✓✓", "any update on 3rd floor?", "will send report tmrw", "Check the PDF I sent", "Files are on the shared drive"].map((msg) => (
                       <div key={msg} className="bg-muted/50 rounded-md px-3 py-1.5 text-xs text-muted-foreground/60 w-fit max-w-[70%]">
                         {msg}
                       </div>
                     ))}
                   </div>
                 </div>
-                {/* Scattered images */}
+                {/* Scattered images & files */}
                 <div className="bg-background/60 rounded-lg p-4 border border-border/50">
                   <div className="flex items-center gap-3 mb-3">
                     <Image className="w-5 h-5 text-muted-foreground/50" />
-                    <span className="text-sm font-medium text-muted-foreground/60">Scattered Images</span>
+                    <span className="text-sm font-medium text-muted-foreground/60">Scattered Images, PDFs & Drives</span>
                   </div>
                   <div className="grid grid-cols-4 gap-2">
                     {[1, 2, 3, 4].map((n) => (
@@ -63,15 +63,15 @@ export function DifferentiationSection() {
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-xs">
-                      <span className="text-muted-foreground">Weekly Progress Report</span>
+                      <span className="text-muted-foreground">Auto-Generated Reports</span>
                       <span className="text-primary font-medium">Generated</span>
                     </div>
                     <div className="h-1.5 bg-muted rounded-full overflow-hidden">
                       <div className="h-full bg-primary rounded-full" style={{ width: "75%" }} />
                     </div>
                     <div className="flex items-center justify-between text-xs text-muted-foreground/60">
-                      <span>12 updates documented</span>
-                      <span>3 min ago</span>
+                      <span>Role-Based Transparency</span>
+                      <span>Centralised Documentation</span>
                     </div>
                   </div>
                 </div>

@@ -11,7 +11,7 @@ const columns = [
   },
   {
     icon: ListChecks,
-    title: "PM Tools",
+    title: "Project Management Tools",
     purpose: "Task coordination",
     examples: ["Task lists", "Deadlines", "Team assignments"],
     outcome: "Execution tracking remains incomplete.",
@@ -105,7 +105,7 @@ export function CategoryCreationSection() {
           <p className="text-muted-foreground mb-6">
             It is the reporting infrastructure construction projects have been missing.
           </p>
-          <p className="text-sm font-display font-semibold text-gradient-gold">
+          <p className="text-2xl sm:text-3xl font-display font-bold text-gradient-gold">
             Record. Report. Release.
           </p>
         </AnimatedSection>
