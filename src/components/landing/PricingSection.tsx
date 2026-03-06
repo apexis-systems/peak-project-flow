@@ -127,7 +127,7 @@ export function PricingSection() {
                 <h3 className="font-display text-lg font-bold">{plan.name}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{plan.desc}</p>
                 {plan.subtitle && (
-                  <p className="text-xs font-medium text-foreground/70 mt-1">{plan.subtitle}</p>
+                  <p className="text-xs font-semibold mt-1" style={{ color: '#e98b06' }}>{plan.subtitle}</p>
                 )}
                 <p className="text-xs font-semibold text-primary mt-2 mb-4">14 Day Free Trial</p>
                 <div className="mb-6">
