@@ -35,6 +35,19 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
     setMobileOpen(false);
     if (href.startsWith("/")) {
       navigate(href);
+    } else if (href === "#") {
+      if (window.location.pathname !== "/") {
+        navigate("/");
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    } else {
+      if (window.location.pathname !== "/") {
+        navigate("/" + href);
+      } else {
+        const el = document.querySelector(href);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
