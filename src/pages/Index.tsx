@@ -103,9 +103,6 @@ const Index = () => {
       <DataSecuritySection />
       <SectionDivider />
       
-      {/* 16. Demo Booking */}
-      <DemoBookingSection />
-      <SectionDivider />
       
       {/* 17. Final Conversion */}
       <FinalCTA onOpenSignup={() => setSignupOpen(true)} />
