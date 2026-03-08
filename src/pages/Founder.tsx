@@ -16,8 +16,8 @@ const Founder = () => {
       <ScrollProgress />
       <Navbar onOpenSignup={() => setSignupOpen(true)} />
 
-      <section className="pt-32 pb-20 lg:pt-40 lg:pb-28">
-        <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
+      <section className="pt-28 pb-12 lg:pt-32 lg:pb-16">
+        <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
           <AnimatedSection>
             <button
               onClick={() => navigate("/")}
