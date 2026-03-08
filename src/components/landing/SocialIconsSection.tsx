@@ -3,7 +3,7 @@ import { AnimatedSection } from "./AnimatedSection";
 const socials = [
   {
     label: "Instagram",
-    href: "https://instagram.com/apexis",
+    href: "https://www.instagram.com/apexis.systems?igsh=MXV1aTQyaXd1dnpqZA%3D%3D&utm_source=qr",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
         <rect x="2" y="2" width="20" height="20" rx="5" />
