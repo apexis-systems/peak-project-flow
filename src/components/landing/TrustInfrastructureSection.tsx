@@ -38,7 +38,7 @@ export function TrustInfrastructureSection() {
             <span className="text-gradient-gold">Infrastructure</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed font-light">
-            Serious construction projects require serious systems. APEXIS is designed with the same reliability expectations as enterprise software platforms.
+            Serious construction projects require serious systems. <span style={{ color: '#f97415' }}>APEXIS</span> is designed with the same reliability expectations as enterprise software platforms.
           </p>
         </AnimatedSection>
 
