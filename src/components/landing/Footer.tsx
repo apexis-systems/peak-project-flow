@@ -27,11 +27,11 @@ export function Footer() {
             <div>
               <h4 className="font-display font-semibold text-xs tracking-widest uppercase mb-4 text-foreground/60">Company</h4>
               <div className="flex flex-col gap-3 text-sm text-muted-foreground font-light">
-                <a href="#" className="hover:text-foreground transition-colors">Contact</a>
                 <a href="#" className="hover:text-foreground transition-colors">Careers</a>
-                <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-                <a href="/terms" className="hover:text-foreground transition-colors">Terms and Conditions</a>
+                <a href="/terms" className="hover:text-foreground transition-colors">Terms & Conditions</a>
                 <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
+                <a href="#" className="hover:text-foreground transition-colors">Data Security</a>
+                <a href="#" className="hover:text-foreground transition-colors">Contact</a>
               </div>
             </div>
 
