@@ -68,7 +68,7 @@ const plans = [
     annualPrice: "Custom",
     desc: "Above 10 projects",
     features: [
-      "Unlimited Projects",
+      "Above 10 Projects",
       "Client Viewership",
       "Custom Workflows",
       "Custom Onboarding",
