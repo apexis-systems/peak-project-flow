@@ -56,7 +56,7 @@ const socials = [
 
 export function SocialIconsSection() {
   return (
-    <section className="py-16">
+    <section className="py-8">
       <div className="container mx-auto px-4 lg:px-8 text-center">
         <AnimatedSection>
           <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-2">
