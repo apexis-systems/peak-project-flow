@@ -98,6 +98,10 @@ const Index = () => {
       {/* 15. Data Privacy */}
       <DataPrivacySection />
       <SectionDivider />
+
+      {/* 15b. Data Security */}
+      <DataSecuritySection />
+      <SectionDivider />
       
       {/* 16. Demo Booking */}
       <DemoBookingSection />
