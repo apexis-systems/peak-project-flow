@@ -113,8 +113,6 @@ const Index = () => {
       {/* 18. Social Media Icons */}
       <SocialIconsSection />
       
-      {/* 19. Contact Us */}
-      <ContactSection />
       
       {/* 19. Footer */}
       <Footer />
