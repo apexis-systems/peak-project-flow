@@ -24,7 +24,7 @@ export function BeforeAfterSection() {
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">
-            Before <span style={{ color: '#f97415' }}>APEXIS</span> vs <span style={{ color: '#f97415' }}>After APEXIS</span>
+            Before <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> vs <span className="font-bold" style={{ color: '#f97415' }}>After APEXIS</span>
           </h2>
         </AnimatedSection>
 
