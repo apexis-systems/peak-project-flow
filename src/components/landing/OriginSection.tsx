@@ -14,7 +14,7 @@ export function OriginSection() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>
-          <div className="space-y-6 text-muted-foreground leading-relaxed text-lg font-light">
+          <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
             <p>
               APEXIS was born out of years of real-world experience in the architecture and construction industry.
             </p>
