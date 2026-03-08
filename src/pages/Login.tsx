@@ -51,6 +51,7 @@ export default function Login() {
             {l}
           </button>
         ))}
+        </div>
       </div>
 
       <div className="flex-1 flex items-center justify-center px-4">
