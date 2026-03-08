@@ -37,7 +37,7 @@ const plans = [
       "Basic Project Dashboard",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
-    cta: "Buy Now",
+    cta: "Get Started",
     highlighted: false,
     outline: false,
   },
