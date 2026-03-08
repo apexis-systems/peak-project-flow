@@ -17,7 +17,7 @@ const plans = [
       "Basic Reporting",
       "5GB Storage",
       "One-time purchase",
-      "Multi-lingual Support (EN, HI, TE)",
+      "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Buy Now",
     highlighted: false,
