@@ -44,7 +44,7 @@ const socials = [
   },
   {
     label: "Email",
-    href: "mailto:hello@apexis.com",
+    href: "mailto:info@apexis.in",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
         <rect x="2" y="4" width="20" height="16" rx="2" />
