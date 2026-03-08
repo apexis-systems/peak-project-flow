@@ -61,7 +61,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <a href="#" className="flex items-center gap-3">
-          <img src={apexisLogo} alt="APEXIS logo" className="h-12 w-12 object-contain" />
+          <img src={apexisLogo} alt="APEXIS logo" className="h-[60px] w-[60px] object-contain" />
           <span className="font-brand text-3xl tracking-wide">APEXIS</span>
         </a>
 
