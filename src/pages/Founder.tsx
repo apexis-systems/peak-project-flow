@@ -38,12 +38,12 @@ const Founder = () => {
           </AnimatedSection>
 
           <AnimatedSection delay={0.1}>
-            <div className="space-y-6 text-muted-foreground leading-relaxed text-lg font-light">
+            <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
               <p>
                 The founder of APEXIS is an architect with over a decade of professional experience in the architecture and construction industry, having worked extensively on both residential and commercial projects from concept development to final execution and handover.
               </p>
               <p>
-                From 2016 to 2026, he was associated with Samar Ramachandra Associates, where he progressed to the role of Senior Associate Architect. During his time at the firm, he played a key role in leading multiple projects and managing project teams, eventually heading projects as a Studio Head.
+                From 2016 to 2026, he was associated with <span className="font-bold text-foreground">Samar Ramachandra Associates</span>, where he progressed to the role of <span className="font-bold text-foreground">Senior Associate Architect</span>. During his time at the firm, he played a key role in leading multiple projects and managing project teams, eventually heading projects as a <span className="font-bold text-foreground">Studio Head</span>.
               </p>
               <p>
                 His work involved overseeing the complete lifecycle of projects — from initial design vision and planning to on-site coordination and project delivery, ensuring that design intent translated seamlessly into built reality.
