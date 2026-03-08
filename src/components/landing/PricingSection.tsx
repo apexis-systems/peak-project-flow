@@ -61,6 +61,7 @@ const plans = [
       "Media Documentation",
       "Priority Support",
       "Snag List Feature",
+      "Drawings Release to Site",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Upgrade to Pro",
