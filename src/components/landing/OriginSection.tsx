@@ -1,4 +1,6 @@
 import { AnimatedSection } from "./AnimatedSection";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
 export function OriginSection() {
   return (
