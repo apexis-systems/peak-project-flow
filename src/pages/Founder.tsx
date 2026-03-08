@@ -49,7 +49,7 @@ const Founder = () => {
                 He also mentored intern architects, helping bridge the gap between academic learning and professional practice.
               </p>
               <p>
-                Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
+                Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
               </p>
             </div>
           </AnimatedSection>
