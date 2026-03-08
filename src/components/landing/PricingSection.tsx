@@ -49,7 +49,7 @@ const plans = [
     desc: "Up to 10 projects",
     badge: "Most Popular",
     features: [
-      "Unlimited Projects",
+      "Up to 10 Projects",
       "Client Viewership",
       "AI-Assisted Reports",
       "Role-Based Access",
