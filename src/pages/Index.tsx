@@ -20,7 +20,7 @@ import { MarqueeSection } from "@/components/landing/MarqueeSection";
 import { PricingSection } from "@/components/landing/PricingSection";
 import { DataPrivacySection } from "@/components/landing/DataPrivacySection";
 import { DataSecuritySection } from "@/components/landing/DataSecuritySection";
-import { DemoBookingSection } from "@/components/landing/DemoBookingSection";
+
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { SocialIconsSection } from "@/components/landing/SocialIconsSection";
 import { Footer } from "@/components/landing/Footer";
