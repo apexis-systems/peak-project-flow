@@ -11,9 +11,11 @@ interface NavbarProps {
 
 const navLinks = [
   { label: "Home", href: "#" },
+  { label: "Problem", href: "#problem" },
+  { label: "Origin", href: "#origin" },
   { label: "Product", href: "#solution" },
-  { label: "How It Works", href: "#about" },
   { label: "Pricing", href: "#pricing" },
+  { label: "Demo", href: "#demo" },
   { label: "Founder", href: "/founder" },
   { label: "Login", href: "/login" },
 ];
