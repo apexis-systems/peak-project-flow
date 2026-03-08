@@ -38,6 +38,7 @@ const plans = [
       "25GB Storage",
       "Basic Project Dashboard",
       "Snag List Feature",
+      "Drawings Release to Site",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Get Started",
