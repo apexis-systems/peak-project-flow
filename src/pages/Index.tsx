@@ -19,6 +19,7 @@ import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { MarqueeSection } from "@/components/landing/MarqueeSection";
 import { PricingSection } from "@/components/landing/PricingSection";
 import { DataPrivacySection } from "@/components/landing/DataPrivacySection";
+import { DataSecuritySection } from "@/components/landing/DataSecuritySection";
 import { DemoBookingSection } from "@/components/landing/DemoBookingSection";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { SocialIconsSection } from "@/components/landing/SocialIconsSection";
@@ -96,6 +97,10 @@ const Index = () => {
       
       {/* 15. Data Privacy */}
       <DataPrivacySection />
+      <SectionDivider />
+
+      {/* 15b. Data Security */}
+      <DataSecuritySection />
       <SectionDivider />
       
       {/* 16. Demo Booking */}
