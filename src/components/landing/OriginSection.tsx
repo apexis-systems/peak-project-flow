@@ -16,7 +16,7 @@ export function OriginSection() {
         <AnimatedSection delay={0.1}>
           <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
             <p>
-              <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> was born out of years of real-world experience in the architecture and construction industry. Project updates are often scattered across calls, messages, and site visits, making it difficult for clients and professionals to clearly understand real-time progress.
+              <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> was born out of years of real-world experience in the architecture and construction industry. Project updates are often scattered across calls, messages, and site visits, making it difficult for clients and professionals to clearly understand real-time progress.
             </p>
             <p>
               Over time, it became clear that the industry needed a more structured and transparent way to track project progress.
