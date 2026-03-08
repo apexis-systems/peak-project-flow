@@ -23,7 +23,6 @@ import { DataSecuritySection } from "@/components/landing/DataSecuritySection";
 import { DemoBookingSection } from "@/components/landing/DemoBookingSection";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { SocialIconsSection } from "@/components/landing/SocialIconsSection";
-import { SocialIconsSection } from "@/components/landing/SocialIconsSection";
 import { Footer } from "@/components/landing/Footer";
 import { SignupModal } from "@/components/landing/SignupModal";
 import { SectionDivider } from "@/components/landing/SectionDivider";
