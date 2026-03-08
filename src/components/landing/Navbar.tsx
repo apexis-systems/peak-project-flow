@@ -67,26 +67,16 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) =>
-            link.href.startsWith("/") ? (
+          {navLinks.map((link) => (
               <button
                 key={link.href}
-                onClick={() => navigate(link.href)}
+                onClick={() => handleNavClick(link.href)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
               >
                 {link.label}
               </button>
-            ) : (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
-              >
-                {link.label}
-              </a>
-            )
-          )}
-          <Button variant="default" size="sm" onClick={onOpenSignup}>
+            ))}
+            <Button variant="default" size="sm" onClick={onOpenSignup}>
             Book Demo
           </Button>
         </div>
