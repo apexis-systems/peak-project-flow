@@ -101,8 +101,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
             className="md:hidden bg-background/95 backdrop-blur-2xl border-b border-border overflow-hidden"
           >
             <div className="flex flex-col gap-4 px-4 py-6">
-              {navLinks.map((link) =>
-                link.href.startsWith("/") ? (
+              {navLinks.map((link) => (
                   <button
                     key={link.href}
                     onClick={() => handleNavClick(link.href)}
@@ -110,17 +109,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
                   >
                     {link.label}
                   </button>
-                ) : (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    className="text-sm font-medium text-muted-foreground hover:text-foreground"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {link.label}
-                  </a>
-                )
-              )}
+                ))}
               <Button variant="default" size="sm" onClick={() => { setMobileOpen(false); onOpenSignup(); }}>
                 Book Demo
               </Button>
