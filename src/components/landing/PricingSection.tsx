@@ -36,6 +36,7 @@ const plans = [
       "Structured Reporting",
       "25GB Storage",
       "Basic Project Dashboard",
+      "Snag List Feature",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Get Started",
