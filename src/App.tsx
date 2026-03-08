@@ -28,6 +28,7 @@ const App = () => (
           <Route path="/verify-otp" element={<VerifyOtp />} />
           <Route path="/founder" element={<Founder />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="/dashboard" element={<Dashboard />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
