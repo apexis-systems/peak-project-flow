@@ -4,8 +4,8 @@ export function Footer() {
   return (
     <footer>
       {/* Logo section above footer bar */}
-      <div className="flex justify-center py-16">
-        <img src={apexisLogoFooter} alt="APEXIS logo" className="h-48 sm:h-56 lg:h-64 w-auto object-contain" />
+      <div className="flex justify-center py-10">
+        <img src={apexisLogoFooter} alt="APEXIS logo" className="h-64 sm:h-72 lg:h-80 w-auto object-contain" />
       </div>
 
       {/* Footer bar */}
