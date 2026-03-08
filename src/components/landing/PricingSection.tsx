@@ -17,6 +17,7 @@ const plans = [
       "Basic Reporting",
       "5GB Storage",
       "One-time purchase",
+      "Snag List Feature",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Buy Now",
