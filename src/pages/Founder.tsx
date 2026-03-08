@@ -57,7 +57,7 @@ const Founder = () => {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={0.2} className="mt-12">
+          <AnimatedSection delay={0.2} className="mt-8">
             <div className="border-l-2 border-accent pl-6 space-y-4">
               <p className="text-lg font-display font-semibold text-foreground">
                 APEXIS is not just a tool.
