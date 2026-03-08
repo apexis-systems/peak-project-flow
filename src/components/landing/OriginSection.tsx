@@ -33,6 +33,9 @@ export function OriginSection() {
               By bringing structured communication and technology into construction management, <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> aims to create greater transparency, clarity, and accountability for everyone involved — from clients to professionals.
             </p>
           </div>
+          <Link to="/founder" className="inline-flex items-center gap-1.5 mt-6 text-sm font-semibold transition-colors hover:opacity-80" style={{ color: '#f97415' }}>
+            Founder's Note <ArrowRight className="w-4 h-4" />
+          </Link>
         </AnimatedSection>
       </div>
     </section>
