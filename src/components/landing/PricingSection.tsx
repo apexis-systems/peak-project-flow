@@ -82,6 +82,7 @@ const plans = [
       "Custom Integrations",
       "Above 100GB Storage",
       "Snag List Feature",
+      "Drawings Release to Site",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Contact Sales",
