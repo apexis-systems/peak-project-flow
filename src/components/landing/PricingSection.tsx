@@ -57,7 +57,7 @@ const plans = [
       "Client Viewership",
       "AI-Assisted Reports",
       "Role-Based Access",
-      "100GB Storage",
+      "100GB **Cloud Storage**",
       "Media Documentation",
       "Priority Support",
       "Snag List Feature",
