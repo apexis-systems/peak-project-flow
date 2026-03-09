@@ -164,7 +164,7 @@ export function PricingSection() {
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-2 text-sm font-light">
                       <Check className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#f97415' }} strokeWidth={1.5} />
-                      <span>{f}</span>
+                      <span dangerouslySetInnerHTML={{ __html: f.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} />
                     </li>
                   ))}
                   <li className="flex items-start gap-2 text-sm font-light">
