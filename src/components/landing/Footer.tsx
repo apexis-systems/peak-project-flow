@@ -48,11 +48,11 @@ export function Footer() {
 
           <div className="border-t border-border/40 pt-8">
             <p className="text-xs text-muted-foreground/60 text-center font-light">
-              © {new Date().getFullYear()} <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span>. All rights reserved.
+              © {new Date().getFullYear()} <span className="font-bold text-primary" style={{ color: '#111111' }}>APEXIS SYSTEMS PVT. LTD. </span>. All rights reserved.
             </p>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 }
