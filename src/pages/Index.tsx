@@ -68,6 +68,10 @@ const Index = () => {
       <WorkflowFitSection />
       <SectionDivider />
       
+      {/* 7b. Project Chat */}
+      <ProjectChatSection />
+      <SectionDivider />
+
       {/* 8. Notifications Intelligence */}
       <PriorityNotificationsSection />
       <SectionDivider />
