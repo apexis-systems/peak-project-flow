@@ -14,9 +14,9 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
-        >
-          <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider uppercase rounded-full border border-border mb-8" style={{ color: '#f97415' }}>
+          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
+          
+          <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider uppercase rounded-full border border-border mb-8 text-[#121212]" style={{ color: '#f97415' }}>
             Currently onboarding select pilot firms
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.08] tracking-tight mb-6">
@@ -44,11 +44,11 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.3 }}
-          className="hidden lg:block"
-        >
+          className="hidden lg:block">
+          
           <DashboardMockup />
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
