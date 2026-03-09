@@ -35,7 +35,7 @@ const plans = [
       "Up to 5 Projects",
       "Client Viewership",
       "Structured Reporting",
-      "25GB Storage",
+      "25GB **Cloud Storage**",
       "Basic Project Dashboard",
       "Snag List Feature",
       "Drawings Release to Site",
