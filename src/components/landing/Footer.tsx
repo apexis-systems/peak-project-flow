@@ -19,7 +19,7 @@ export function Footer() {
                 <a href="#solution" className="hover:text-foreground transition-colors">How It Works</a>
                 <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
                 
-                <a href="#about" className="hover:text-foreground transition-colors">About <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></a>
+                <a href="#origin" className="hover:text-foreground transition-colors">About <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></a>
               </div>
             </div>
 
