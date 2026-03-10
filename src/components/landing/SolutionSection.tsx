@@ -29,10 +29,17 @@ const stages = [
     num: "03",
     title: "Release",
     desc: [
-      "Professional reports can be shared with clients and stakeholders, providing clear visibility into project progress.",
-      "This ensures transparency, accountability, and professional communication throughout the project lifecycle.",
+      "Once updates are recorded and structured, information can be released to the relevant stakeholders in a clear and professional format.",
     ],
-    graphic: "Report being shared with client or stakeholder",
+    bullets: [
+      "Progress reports shared with clients",
+      "Site documentation and update logs",
+      "Layout drawings and working drawings released from the office to the site",
+      "Design revisions and technical instructions",
+      "3D models and reference visuals for better site understanding",
+    ],
+    descAfter: "APEXIS ensures that every release of information is structured, traceable, and professionally documented.",
+    graphic: "release-flow",
   },
 ];
 
