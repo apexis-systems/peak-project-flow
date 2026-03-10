@@ -1,7 +1,7 @@
 import { AnimatedSection } from "./AnimatedSection";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { Camera, FileText, Share2, ArrowRight } from "lucide-react";
+import { Camera, FileText, Share2, ArrowRight, ArrowDown, Ruler, Box, HardHat, Eye } from "lucide-react";
 
 const stages = [
   {
@@ -29,10 +29,17 @@ const stages = [
     num: "03",
     title: "Release",
     desc: [
-      "Professional reports can be shared with clients and stakeholders, providing clear visibility into project progress.",
-      "This ensures transparency, accountability, and professional communication throughout the project lifecycle.",
+      "Once updates are recorded and structured, information can be released to the relevant stakeholders in a clear and professional format.",
     ],
-    graphic: "Report being shared with client or stakeholder",
+    bullets: [
+      "Progress reports shared with clients",
+      "Site documentation and update logs",
+      "Layout drawings and working drawings released from the office to the site",
+      "Design revisions and technical instructions",
+      "3D models and reference visuals for better site understanding",
+    ],
+    descAfter: "APEXIS ensures that every release of information is structured, traceable, and professionally documented.",
+    graphic: "release-flow",
   },
 ];
 
@@ -40,6 +47,14 @@ const flow = [
   { label: "Record", icon: Camera },
   { label: "Report", icon: FileText },
   { label: "Release", icon: Share2 },
+];
+
+const releaseFlow = [
+  { label: "Office Design Team", icon: Ruler },
+  { label: "Layouts & Working Drawings", icon: FileText },
+  { label: "3D Models / Design References", icon: Box },
+  { label: "Site Team Implementation", icon: HardHat },
+  { label: "Client Visibility", icon: Eye },
 ];
 
 export function SolutionSection() {
@@ -112,6 +127,21 @@ export function SolutionSection() {
                         {p}
                       </p>
                     ))}
+                    {stage.bullets && (
+                      <ul className="space-y-2 text-muted-foreground font-light">
+                        {stage.bullets.map((b, j) => (
+                          <li key={j} className="flex items-start gap-2">
+                            <span className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: "#f97415" }} />
+                            <span className="leading-relaxed">{b}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {stage.descAfter && (
+                      <p className="text-muted-foreground leading-relaxed font-light">
+                        <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> {stage.descAfter.replace("APEXIS ", "")}
+                      </p>
+                    )}
                   </div>
                 </div>
 
@@ -120,25 +150,60 @@ export function SolutionSection() {
                   style={{ y: parallaxY }}
                   className={i % 2 === 1 ? "lg:order-1" : ""}
                 >
-                  <div className="rounded-2xl border border-border/60 bg-card p-8 lg:p-12 flex items-center justify-center min-h-[220px]">
-                    <div className="text-center">
-                      <stage.icon
-                        className="w-12 h-12 mx-auto mb-4"
-                        style={{ color: "#f97415" }}
-                        strokeWidth={1}
-                      />
-                      <p className="text-sm text-muted-foreground font-light">
-                        {stage.graphic}
-                      </p>
+                  {stage.graphic === "release-flow" ? (
+                    <div className="rounded-2xl border border-border/60 bg-card p-6 lg:p-8">
+                      <div className="flex flex-col items-center gap-2">
+                        {releaseFlow.map((step, si) => (
+                          <div key={step.label} className="w-full max-w-[240px]">
+                            <motion.div
+                              initial={{ opacity: 0, y: 12 }}
+                              whileInView={{ opacity: 1, y: 0 }}
+                              viewport={{ once: true }}
+                              transition={{ delay: 0.15 + si * 0.1, duration: 0.5 }}
+                              className="flex items-center gap-3 rounded-xl border border-border/60 bg-background/50 px-4 py-3"
+                            >
+                              <step.icon className="w-4 h-4 flex-shrink-0" style={{ color: "#f97415" }} strokeWidth={1.5} />
+                              <span className="text-xs font-medium">{step.label}</span>
+                            </motion.div>
+                            {si < releaseFlow.length - 1 && (
+                              <div className="flex justify-center py-1">
+                                <ArrowDown className="w-3 h-3 text-foreground/15" />
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  ) : (
+                    <div className="rounded-2xl border border-border/60 bg-card p-8 lg:p-12 flex items-center justify-center min-h-[220px]">
+                      <div className="text-center">
+                        <stage.icon
+                          className="w-12 h-12 mx-auto mb-4"
+                          style={{ color: "#f97415" }}
+                          strokeWidth={1}
+                        />
+                        <p className="text-sm text-muted-foreground font-light">
+                          {stage.graphic}
+                        </p>
+                      </div>
+                    </div>
+                  )}
                 </motion.div>
               </div>
             </AnimatedSection>
           ))}
         </div>
 
-        {/* Horizontal flow */}
+        {/* Release supporting text */}
+        <AnimatedSection className="text-center max-w-2xl mx-auto mb-20">
+          <p className="text-muted-foreground leading-relaxed font-light mb-3">
+            <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> creates a structured bridge between the design office, the construction site, and the client.
+          </p>
+          <p className="text-muted-foreground leading-relaxed font-light">
+            This ensures that instructions, drawings, and updates reach the right people in a clear and organized manner.
+          </p>
+        </AnimatedSection>
+
         <AnimatedSection className="mb-20">
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             {flow.map((step, i) => (
