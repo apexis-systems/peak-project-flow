@@ -49,6 +49,14 @@ const flow = [
   { label: "Release", icon: Share2 },
 ];
 
+const releaseFlow = [
+  { label: "Office Design Team", icon: Ruler },
+  { label: "Layouts & Working Drawings", icon: FileText },
+  { label: "3D Models / Design References", icon: Box },
+  { label: "Site Team Implementation", icon: HardHat },
+  { label: "Client Visibility", icon: Eye },
+];
+
 export function SolutionSection() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
