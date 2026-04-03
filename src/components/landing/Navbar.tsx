@@ -31,9 +31,11 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleNavClick = (href: string) => {
+  const handleNavClick = (href: string, external?: boolean) => {
     setMobileOpen(false);
-    if (href.startsWith("/")) {
+    if (external) {
+      window.open(href, "_blank", "noopener,noreferrer");
+    } else if (href.startsWith("/")) {
       navigate(href);
     } else if (href === "#") {
       if (window.location.pathname !== "/") {
