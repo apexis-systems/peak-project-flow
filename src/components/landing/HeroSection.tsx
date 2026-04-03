@@ -36,9 +36,6 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             <a href="#" className="inline-block hover:opacity-80 transition-opacity">
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-[50px]" />
             </a>
-            <Button variant="hero-outline" size="lg" asChild>
-              <a href="#demo">Book a Private Demo</a>
-            </Button>
           </div>
         </motion.div>
 
