@@ -17,7 +17,7 @@ const navLinks = [
   { label: "Pricing", href: "#pricing" },
   
   { label: "Founder", href: "/founder" },
-  { label: "Login", href: "/login" },
+  { label: "Login", href: "https://web.apexis.in/login", external: true },
 ];
 
 export function Navbar({ onOpenSignup }: NavbarProps) {
