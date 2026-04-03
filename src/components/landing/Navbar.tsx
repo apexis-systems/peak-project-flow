@@ -109,7 +109,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
               {navLinks.map((link) => (
                   <button
                     key={link.href}
-                    onClick={() => handleNavClick(link.href)}
+                    onClick={() => handleNavClick(link.href, link.external)}
                     className="text-sm font-medium text-muted-foreground hover:text-foreground text-left"
                   >
                     {link.label}

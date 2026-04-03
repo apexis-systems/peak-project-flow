@@ -29,10 +29,13 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           <p className="text-2xl font-display font-bold mb-10" style={{ color: '#f97415' }}>
             RECORD . REPORT . RELEASE .
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg" onClick={onOpenSignup}>
-              Get Early Access
-            </Button>
+          <div className="flex flex-col sm:flex-row gap-4 items-center">
+            <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[50px]" />
+            </a>
+            <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-[50px]" />
+            </a>
             <Button variant="hero-outline" size="lg" asChild>
               <a href="#demo">Book a Private Demo</a>
             </Button>
