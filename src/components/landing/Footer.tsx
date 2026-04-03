@@ -4,8 +4,16 @@ export function Footer() {
   return (
     <footer>
       {/* Logo section above footer bar */}
-      <div className="flex justify-center py-10">
+      <div className="flex flex-col items-center py-10 gap-4">
         <img src={apexisLogoFooter} alt="APEXIS logo" className="h-64 sm:h-72 lg:h-80 w-auto object-contain" />
+        <div className="flex gap-4 items-center">
+          <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[40px]" />
+          </a>
+          <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-[40px]" />
+          </a>
+        </div>
       </div>
 
       {/* Footer bar */}
