@@ -17,10 +17,13 @@ export function FinalCTA({ onOpenSignup }: FinalCTAProps) {
           <p className="mb-10 text-sm font-bold" style={{ color: '#f97415' }}>
             Private beta closing soon.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={onOpenSignup} className="bg-background text-foreground hover:bg-background/90 font-semibold shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
-              Get Early Access
-            </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[50px]" />
+            </a>
+            <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-[50px]" />
+            </a>
             <Button variant="hero-outline" size="lg" className="border-surface-dark-foreground/20 text-surface-dark-foreground hover:border-surface-dark-foreground/40">
               Schedule Demo
             </Button>

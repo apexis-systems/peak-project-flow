@@ -9,7 +9,7 @@ interface NavbarProps {
   onOpenSignup: () => void;
 }
 
-const navLinks = [
+const navLinks: { label: string; href: string; external?: boolean }[] = [
   { label: "Home", href: "#" },
   { label: "Problem", href: "#problem" },
   { label: "Origin", href: "#origin" },
@@ -17,7 +17,7 @@ const navLinks = [
   { label: "Pricing", href: "#pricing" },
   
   { label: "Founder", href: "/founder" },
-  { label: "Login", href: "/login" },
+  { label: "Login", href: "https://web.apexis.in/login", external: true },
 ];
 
 export function Navbar({ onOpenSignup }: NavbarProps) {
@@ -31,9 +31,11 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleNavClick = (href: string) => {
+  const handleNavClick = (href: string, external?: boolean) => {
     setMobileOpen(false);
-    if (href.startsWith("/")) {
+    if (external) {
+      window.open(href, "_blank", "noopener,noreferrer");
+    } else if (href.startsWith("/")) {
       navigate(href);
     } else if (href === "#") {
       if (window.location.pathname !== "/") {
@@ -73,7 +75,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
           {navLinks.map((link) => (
               <button
                 key={link.href}
-                onClick={() => handleNavClick(link.href)}
+                onClick={() => handleNavClick(link.href, link.external)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
               >
                 {link.label}
@@ -107,7 +109,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
               {navLinks.map((link) => (
                   <button
                     key={link.href}
-                    onClick={() => handleNavClick(link.href)}
+                    onClick={() => handleNavClick(link.href, link.external)}
                     className="text-sm font-medium text-muted-foreground hover:text-foreground text-left"
                   >
                     {link.label}
