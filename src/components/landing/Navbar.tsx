@@ -9,7 +9,7 @@ interface NavbarProps {
   onOpenSignup: () => void;
 }
 
-const navLinks = [
+const navLinks: { label: string; href: string; external?: boolean }[] = [
   { label: "Home", href: "#" },
   { label: "Problem", href: "#problem" },
   { label: "Origin", href: "#origin" },
