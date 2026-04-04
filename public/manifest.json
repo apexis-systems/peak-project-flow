@@ -1,0 +1,17 @@
+{
+  "name": "Apexis",
+  "short_name": "Apexis",
+  "description": "Construction communication infrastructure",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "categories": ["business"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
