@@ -7,7 +7,7 @@ export function Footer() {
       <div className="flex flex-col items-center py-10 gap-4">
         <img src={apexisLogoFooter} alt="APEXIS logo" className="h-64 sm:h-72 lg:h-80 w-auto object-contain" />
         <div className="flex gap-4 items-center">
-          <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+          <a href="https://apps.apple.com/app/apexis-record-report-release/id6760482687" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[40px]" />
           </a>
           <a href="#" className="inline-block hover:opacity-80 transition-opacity">
