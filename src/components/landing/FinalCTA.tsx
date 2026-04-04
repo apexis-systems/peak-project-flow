@@ -18,7 +18,7 @@ export function FinalCTA({ onOpenSignup }: FinalCTAProps) {
             Private beta closing soon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+            <a href="https://apps.apple.com/app/apexis-record-report-release/id6760482687" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
               <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[50px]" />
             </a>
             <a href="#" className="inline-block hover:opacity-80 transition-opacity">
