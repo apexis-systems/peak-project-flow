@@ -65,7 +65,11 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
         <a href="#" className="flex items-center gap-3">
           <img src={apexisLogo} alt="APEXIS logo" className="h-[50px] w-[50px] object-contain" />
           <div className="flex flex-col">
-            <span className="font-brand text-4xl tracking-wide leading-none">APEXIS</span>
+            <span className="flex items-baseline gap-0.5 leading-none">
+              <span className="font-brand text-4xl tracking-wide">APEXIS</span>
+              <span className="font-brand text-lg tracking-wide">PRO</span>
+              <span className="text-[0.5rem] font-medium align-super -ml-0.5" style={{ verticalAlign: 'super' }}>™</span>
+            </span>
             <span className="text-[0.45rem] font-bold tracking-[0.25em] leading-none mt-0.5" style={{ color: '#f97415' }}>RECORD . REPORT . RELEASE .</span>
           </div>
         </a>
