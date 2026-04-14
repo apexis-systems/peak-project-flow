@@ -68,7 +68,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
             <span className="flex items-baseline gap-0.5 leading-none">
               <span className="font-brand text-4xl tracking-wide">APEXIS</span>
               <span className="font-brand text-sm tracking-wide">PRO</span>
-              <sup className="text-[0.45rem] font-medium -ml-0.5" style={{ top: '-1.2em' }}>™</sup>
+              <sup className="text-[0.575rem] font-medium -ml-0.5" style={{ top: '-1.2em' }}>™</sup>
             </span>
             <span className="text-[0.45rem] font-bold tracking-[0.25em] leading-none mt-0.5 text-center" style={{ color: '#f97415' }}>RECORD . REPORT . RELEASE .</span>
           </div>
