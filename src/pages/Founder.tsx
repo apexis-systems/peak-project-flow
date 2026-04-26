@@ -48,16 +48,16 @@ const Founder = () => {
 
             <AnimatedSection delay={0.1}>
               <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
-                <p>
+                <p className="text-sm">
                   The founder of <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> is an architect with over a decade of experience in the architecture and construction industry, working on both residential and commercial projects from concept development to final execution.
                 </p>
-                <p>
+                <p className="text-sm">
                   From 2016 to 2026, he worked at <span className="font-bold text-foreground">Samar Ramachandra Associates</span>, where he rose to the position of <span className="font-bold text-foreground">Senior Associate Architect</span> and later led projects as a <span className="font-bold text-foreground">Studio Head</span>. During this time, he managed the full lifecycle of multiple projects, from initial design vision to overseeing design development, on-site coordination, and project delivery.
                 </p>
-                <p>
+                <p className="text-sm">
                   He also mentored intern architects, helping bridge the gap between academic learning and professional practice.
                 </p>
-                <p>
+                <p className="text-sm">
                   Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
                 </p>
               </div>
