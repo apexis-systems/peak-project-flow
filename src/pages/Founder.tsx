@@ -30,7 +30,7 @@ const Founder = () => {
           </AnimatedSection>
 
           <AnimatedSection>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
+            <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-6 leading-[1.1] lg:text-xl">
               From Architectural Practice to Construction Technology
             </h1>
           </AnimatedSection>
