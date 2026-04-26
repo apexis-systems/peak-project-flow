@@ -11,13 +11,13 @@ export function AboutSection() {
           </h2>
           <div className="space-y-5 text-muted-foreground leading-relaxed text-lg font-light">
             <p>
-              <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> was created to solve a structural problem in construction projects — the lack of organized, accountable reporting.
+              <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> was created to solve a structural problem in construction projects, the lack of organized, accountable reporting.
             </p>
             <p>
               Modern construction teams rely heavily on informal communication. But serious projects require documented progress, structured updates, and decision-ready visibility.
             </p>
             <p>
-              <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> transforms site activity into recorded, categorized, and professionally reportable data — giving architects, contractors, and project directors operational control.
+              <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> transforms site activity into recorded, categorized, and professionally reportable data, giving architects, contractors, and project directors operational control.
             </p>
           </div>
           <p className="mt-10 text-2xl font-display font-bold text-gradient-gold">

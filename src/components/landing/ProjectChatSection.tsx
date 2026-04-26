@@ -71,7 +71,7 @@ export function ProjectChatSection() {
               Yet many projects still rely on informal messaging groups to manage critical project communication.
             </p>
             <p>
-              <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> introduces a structured communication system designed specifically for construction teams — where conversations stay organized, traceable, and connected directly to the project workflow.
+              <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> introduces a structured communication system designed specifically for construction teams, where conversations stay organized, traceable, and connected directly to the project workflow.
             </p>
           </div>
         </AnimatedSection>

@@ -19,7 +19,7 @@ export function LearningCurveSection() {
             <span className="text-gradient-gold">LEARNING CURVE</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light mb-12">
-            The platform is designed so anyone in the project ecosystem can use it immediately — architects, contractors, project directors, builders, and clients.
+            The platform is designed so anyone in the project ecosystem can use it immediately, architects, contractors, project directors, builders, and clients.
           </p>
         </AnimatedSection>
 
