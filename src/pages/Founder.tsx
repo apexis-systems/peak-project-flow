@@ -62,7 +62,7 @@ const Founder = () => {
                 </p>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-border flex md:justify-end">
+              <div className="mt-6 pt-4 border-t border-border flex md:justify-end text-left">
                 <div className="md:text-right">
                   <h3 className="text-xl font-display font-bold text-foreground mb-1">
                     Mirza Naseer Ahmed Baig
