@@ -21,7 +21,7 @@ export function BrandStatementSection() {
             Construction Projects Run on Information.
           </h2>
           <p className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]" style={{ color: "#f97415" }}>
-            APEXIS Structures It.
+            APEXISpro Structures It.
           </p>
         </AnimatedSection>
 
@@ -31,7 +31,7 @@ export function BrandStatementSection() {
             <p>Every construction project generates hundreds of updates, decisions, instructions, and conversations.</p>
             <p>When this information is scattered across messages, calls, and informal communication channels, clarity is lost.</p>
             <p>
-              <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> brings structure to project communication by recording site activity, organizing conversations, and transforming updates into professional reports.
+              <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> brings structure to project communication by recording site activity, organizing conversations, and transforming updates into professional reports.
             </p>
             <p>This ensures that project teams and clients always have clear visibility into what is happening on site.</p>
           </div>

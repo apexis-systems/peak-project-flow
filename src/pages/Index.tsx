@@ -8,7 +8,7 @@ import { WhatApexisDoesSection } from "@/components/landing/WhatApexisDoesSectio
 import { TheShiftSection } from "@/components/landing/TheShiftSection";
 import { SolutionSection } from "@/components/landing/SolutionSection";
 import { LearningCurveSection } from "@/components/landing/LearningCurveSection";
-import { WorkflowFitSection } from "@/components/landing/WorkflowFitSection";
+
 import { ProjectChatSection } from "@/components/landing/ProjectChatSection";
 import { PriorityNotificationsSection } from "@/components/landing/PriorityNotificationsSection";
 import { DifferentiationSection } from "@/components/landing/DifferentiationSection";
@@ -45,11 +45,11 @@ const Index = () => {
       <ProblemSection />
       <SectionDivider />
 
-      {/* 2b. The Origin of APEXIS */}
+      {/* 2b. The Origin of APEXISpro */}
       <OriginSection />
       <SectionDivider />
 
-      {/* 3. What APEXIS Actually Does */}
+      {/* 3. What APEXISpro Actually Does */}
       <WhatApexisDoesSection />
       <SectionDivider />
       
@@ -57,7 +57,7 @@ const Index = () => {
       <TheShiftSection />
       <SectionDivider />
       
-      {/* 5. How APEXIS Works */}
+      {/* 5. How APEXISpro Works */}
       <SolutionSection />
       <SectionDivider />
       
@@ -65,9 +65,7 @@ const Index = () => {
       <LearningCurveSection />
       <SectionDivider />
       
-      {/* 7. Fits Seamlessly */}
-      <WorkflowFitSection />
-      <SectionDivider />
+      
       
       {/* 7b. Project Chat */}
       <ProjectChatSection />

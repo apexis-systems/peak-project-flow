@@ -16,15 +16,12 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
           
-          <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider uppercase rounded-full border border-border mb-8" style={{ color: '#111111' }}>
-            Construction Communication Infrastructure
-          </span>
           <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.08] tracking-tight mb-6">
             Your Projects Deserve <span style={{ color: '#f97415' }}>Better</span> Than{" "}
             <span style={{ color: '#f97415' }}>WhatsApp Updates.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-light">
-            <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> is the structured execution layer for modern construction and design teams.
+            Protecting Design Vision, From Concept to Completion.
           </p>
           <p className="text-2xl font-display font-bold mb-10" style={{ color: '#f97415' }}>
             RECORD . REPORT . RELEASE .
@@ -33,7 +30,7 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             <a href="https://apps.apple.com/app/apexis-record-report-release/id6760482687" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
               <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[50px]" />
             </a>
-            <a href="#" className="inline-block hover:opacity-80 transition-opacity">
+            <a href="https://play.google.com/store/apps/details?id=com.apexis.app&hl=en_IN" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-[50px]" />
             </a>
           </div>

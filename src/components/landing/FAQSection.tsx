@@ -8,12 +8,12 @@ import {
 
 const faqs = [
   {
-    q: "Who is APEXIS for?",
-    a: "APEXIS is built for architects, interior designers, contractors, builders, and real estate developers who manage construction and design projects and need structured reporting and client communication.",
+    q: "Who is APEXISpro for?",
+    a: "APEXISpro is built for architects, interior designers, contractors, builders, and real estate developers who manage construction and design projects and need structured reporting and client communication.",
   },
   {
     q: "Does this replace project management tools?",
-    a: "APEXIS complements your existing project management tools. We focus specifically on site documentation, structured reporting, and controlled client visibility — the execution layer that most project management tools miss.",
+    a: "APEXISpro complements your existing project management tools. We focus specifically on site documentation, structured reporting, and controlled client visibility — the execution layer that most project management tools miss.",
   },
   {
     q: "Is my data secure?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Is this suitable for small firms?",
-    a: "Yes. Our Starter plan is designed for up to 5 projects. Whether you're a solo architect or a growing firm, APEXIS scales with your needs.",
+    a: "Yes. Our Starter plan is designed for up to 5 projects. Whether you're a solo architect or a growing firm, APEXISpro scales with your needs.",
   },
   {
     q: "When is the full launch?",
