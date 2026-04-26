@@ -9,7 +9,7 @@ export function DashboardMockup() {
           <div className="w-3 h-3 rounded-full bg-destructive/60" />
           <div className="w-3 h-3 rounded-full bg-gold/60" />
           <div className="w-3 h-3 rounded-full bg-green-500/60" />
-          <span className="ml-3 text-xs text-surface-dark-foreground/40 font-mono">apexis — dashboard</span>
+          <span className="ml-3 text-xs text-surface-dark-foreground/40 font-mono">apexis, dashboard</span>
         </div>
 
         <div className="p-6 space-y-4">
@@ -17,7 +17,7 @@ export function DashboardMockup() {
           <div className="flex items-center justify-between">
             <div>
               <div className="text-sm font-semibold text-surface-dark-foreground">Project Overview</div>
-              <div className="text-xs text-surface-dark-foreground/40 mt-0.5">Meridian Tower — Phase 2</div>
+              <div className="text-xs text-surface-dark-foreground/40 mt-0.5">Meridian Tower, Phase 2</div>
             </div>
             <div className="flex gap-2">
               <motion.div

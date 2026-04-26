@@ -49,8 +49,8 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             <motion.img
               src={heroMockup1}
               alt="APEXISpro mobile app dashboard"
-              className="w-[260px] xl:w-[300px] rounded-[2rem] shadow-2xl border border-foreground/10 -rotate-3 translate-y-4"
-              whileHover={{ rotate: 0, scale: 1.02 }}
+              className="w-[260px] xl:w-[300px] rounded-[2rem] shadow-2xl border border-foreground/10"
+              whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.4 }}
             />
           </div>
@@ -58,8 +58,8 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             <motion.img
               src={heroMockup2}
               alt="APEXISpro project overview screen"
-              className="w-[260px] xl:w-[300px] rounded-[2rem] shadow-2xl border border-foreground/10 rotate-3 -translate-y-4"
-              whileHover={{ rotate: 0, scale: 1.02 }}
+              className="w-[260px] xl:w-[300px] rounded-[2rem] shadow-2xl border border-foreground/10"
+              whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.4 }}
             />
           </div>
