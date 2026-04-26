@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export function OriginSection() {
   return (
-    <section id="origin" className="py-12 lg:py-16 bg-card/30">
+    <section id="origin" className="py-8 lg:py-10 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection>
           <span className="text-xs font-bold tracking-widest uppercase mb-6 block" style={{ color: '#111111' }}>

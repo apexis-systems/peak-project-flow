@@ -10,7 +10,7 @@ const layers = [
 
 export function TheShiftSection() {
   return (
-    <section className="py-12 lg:py-16 bg-card/30">
+    <section className="py-8 lg:py-10 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         <AnimatedSection className="mb-16">
           <span className="text-xs font-bold tracking-widest uppercase mb-6 block" style={{ color: '#f97415' }}>
@@ -66,11 +66,6 @@ export function TheShiftSection() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.5} className="max-w-3xl">
-          <p className="text-lg font-display font-semibold text-foreground">
-            <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> is building the execution documentation layer for modern construction projects.
-          </p>
-        </AnimatedSection>
       </div>
     </section>
   );

@@ -49,7 +49,7 @@ export function ProjectChatSection() {
   const parallaxY = useTransform(scrollYProgress, [0, 1], [40, -40]);
 
   return (
-    <section ref={scrollRef} className="py-12 lg:py-16">
+    <section ref={scrollRef} className="py-8 lg:py-10">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-6">

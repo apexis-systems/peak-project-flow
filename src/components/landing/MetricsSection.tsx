@@ -9,7 +9,7 @@ const metrics = [
 
 export function MetricsSection() {
   return (
-    <section className="py-12 lg:py-16">
+    <section className="py-8 lg:py-10">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection className="text-center mb-12">
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
