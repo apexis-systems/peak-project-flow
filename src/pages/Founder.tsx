@@ -61,22 +61,22 @@ const Founder = () => {
                   Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
                 </p>
               </div>
+
+              <div className="mt-6 pt-4 border-t border-border flex md:justify-end">
+                <div className="md:text-right">
+                  <h3 className="text-xl font-display font-bold text-foreground mb-1">
+                    Mirza Naseer Ahmed Baig
+                  </h3>
+                  <p className="text-sm font-medium" style={{ color: '#f97415' }}>
+                    Founder, <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span>.
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Architect | Industry Experience: 10+ Years
+                  </p>
+                </div>
+              </div>
             </AnimatedSection>
           </div>
-
-          <AnimatedSection delay={0.2} className="mt-4">
-            <div className="border-t border-border pt-4">
-              <h3 className="text-xl font-display font-bold text-foreground mb-1">
-                Mirza Naseer Ahmed Baig
-              </h3>
-              <p className="text-sm font-medium" style={{ color: '#f97415' }}>
-                Founder, <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span>.
-              </p>
-              <p className="text-sm text-muted-foreground mt-1">
-                Architect | Industry Experience: 10+ Years
-              </p>
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 

@@ -7,7 +7,7 @@ const stages = [
     icon: Camera,
     num: "01",
     title: "Record",
-    desc: "Site teams capture progress, photos, and notes in real time — creating a clear chronological record.",
+    desc: "Site teams capture progress, photos, and notes in real time, creating a clear chronological record.",
   },
   {
     icon: FileText,
@@ -19,7 +19,7 @@ const stages = [
     icon: Share2,
     num: "03",
     title: "Release",
-    desc: "Drawings, revisions, models and progress reports are released to the right stakeholders — traceable and professional.",
+    desc: "Drawings, revisions, models and progress reports are released to the right stakeholders, traceable and professional.",
   },
 ];
 
@@ -111,7 +111,7 @@ export function SolutionSection() {
         {/* Closing */}
         <AnimatedSection className="text-center max-w-2xl mx-auto mt-8">
           <p className="text-base font-bold" style={{ color: "#f97415" }}>
-            From site activity to client reporting — everything flows through APEXISpro.
+            From site activity to client reporting, everything flows through APEXISpro.
           </p>
         </AnimatedSection>
       </div>

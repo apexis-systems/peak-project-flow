@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { DashboardMockup } from "./DashboardMockup";
+import heroMockup1 from "@/assets/hero-mockup-1.jpg";
+import heroMockup2 from "@/assets/hero-mockup-2.png";
 
 interface HeroProps {
   onOpenSignup: () => void;
@@ -36,14 +37,32 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           </div>
         </motion.div>
 
-        {/* Right - Dashboard preview */}
+        {/* Right - App screenshots */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.3 }}
-          className="hidden lg:block">
-          
-          <DashboardMockup />
+          className="hidden lg:flex items-center justify-center gap-6 relative">
+
+          <div className="relative">
+            <div className="absolute -inset-6 bg-primary/10 rounded-[3rem] blur-3xl -z-10" />
+            <motion.img
+              src={heroMockup1}
+              alt="APEXISpro mobile app dashboard"
+              className="w-[260px] xl:w-[300px] rounded-[2rem] shadow-2xl border border-foreground/10 -rotate-3 translate-y-4"
+              whileHover={{ rotate: 0, scale: 1.02 }}
+              transition={{ duration: 0.4 }}
+            />
+          </div>
+          <div className="relative">
+            <motion.img
+              src={heroMockup2}
+              alt="APEXISpro project overview screen"
+              className="w-[260px] xl:w-[300px] rounded-[2rem] shadow-2xl border border-foreground/10 rotate-3 -translate-y-4"
+              whileHover={{ rotate: 0, scale: 1.02 }}
+              transition={{ duration: 0.4 }}
+            />
+          </div>
         </motion.div>
       </div>
     </section>);

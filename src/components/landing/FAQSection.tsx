@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "Does this replace project management tools?",
-    a: "APEXISpro complements your existing project management tools. We focus specifically on site documentation, structured reporting, and controlled client visibility — the execution layer that most project management tools miss.",
+    a: "APEXISpro complements your existing project management tools. We focus specifically on site documentation, structured reporting, and controlled client visibility, the execution layer that most project management tools miss.",
   },
   {
     q: "Is my data secure?",
