@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "G.S. Reddy",
     role: "Principal Architect",
-    quote: "APEXIS replaced our entire reporting workflow. What used to take my team 4 hours now takes 15 minutes.",
+    quote: "APEXISpro replaced our entire reporting workflow. What used to take my team 4 hours now takes 15 minutes.",
   },
   {
     name: "Armaan Chaudhary",
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Mohammed Ahmed",
     role: "Development Manager",
-    quote: "We've reduced project disputes by 60% since implementing APEXIS. Documented progress speaks for itself.",
+    quote: "We've reduced project disputes by 60% since implementing APEXISpro. Documented progress speaks for itself.",
   },
 ];
 

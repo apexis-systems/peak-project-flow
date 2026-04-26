@@ -60,10 +60,10 @@ export function SocialIconsSection() {
       <div className="container mx-auto px-4 lg:px-8 text-center">
         <AnimatedSection>
           <p className="text-xs font-bold tracking-widest uppercase mb-2" style={{ color: '#f97415' }}>
-            Connect With APEXIS
+            Connect With APEXISpro
           </p>
           <p className="text-sm text-muted-foreground font-light mb-8 max-w-md mx-auto">
-            Follow APEXIS for product updates, construction insights, and platform announcements.
+            Follow APEXISpro for product updates, construction insights, and platform announcements.
           </p>
           <div className="flex items-center justify-center gap-6">
             {socials.map((s) => (

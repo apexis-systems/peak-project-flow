@@ -9,7 +9,7 @@ const Terms = () => {
           <ArrowLeft className="w-4 h-4" /> Back to Home
         </Link>
 
-        <h1 className="text-3xl md:text-4xl font-display font-bold mb-8">Terms and Conditions – <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></h1>
+        <h1 className="text-3xl md:text-4xl font-display font-bold mb-8">Terms and Conditions – <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span></h1>
 
         <div className="prose prose-sm max-w-none text-muted-foreground space-y-8 font-light">
           <section>

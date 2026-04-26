@@ -4,7 +4,7 @@ import { CalendarDays, ClipboardList, Users } from "lucide-react";
 
 const layers = [
   { icon: CalendarDays, label: "Planning Tools", sub: "Scheduling & task allocation" },
-  { icon: ClipboardList, label: "Execution Documentation", sub: "APEXIS", highlighted: true },
+  { icon: ClipboardList, label: "Execution Documentation", sub: "APEXISpro", highlighted: true },
   { icon: Users, label: "Client Reporting", sub: "Client visibility" },
 ];
 
@@ -26,7 +26,7 @@ export function TheShiftSection() {
             <p>Many construction teams use project management software.</p>
             <p>But project management platforms focus on planning, scheduling, and task allocation.</p>
             <p>What is often missing is the execution documentation layer.</p>
-            <p><strong className="font-medium" style={{ color: '#111111' }}>APEXIS fills this gap.</strong></p>
+            <p><strong className="font-medium" style={{ color: '#111111' }}>APEXISpro fills this gap.</strong></p>
             <p>It records real site activity, structures the information, and converts it into professional reporting infrastructure.</p>
           </div>
         </AnimatedSection>
@@ -68,7 +68,7 @@ export function TheShiftSection() {
 
         <AnimatedSection delay={0.5} className="max-w-3xl">
           <p className="text-lg font-display font-semibold text-foreground">
-            <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> is building the execution documentation layer for modern construction projects.
+            <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> is building the execution documentation layer for modern construction projects.
           </p>
         </AnimatedSection>
       </div>

@@ -45,11 +45,11 @@ const Index = () => {
       <ProblemSection />
       <SectionDivider />
 
-      {/* 2b. The Origin of APEXIS */}
+      {/* 2b. The Origin of APEXISpro */}
       <OriginSection />
       <SectionDivider />
 
-      {/* 3. What APEXIS Actually Does */}
+      {/* 3. What APEXISpro Actually Does */}
       <WhatApexisDoesSection />
       <SectionDivider />
       
@@ -57,7 +57,7 @@ const Index = () => {
       <TheShiftSection />
       <SectionDivider />
       
-      {/* 5. How APEXIS Works */}
+      {/* 5. How APEXISpro Works */}
       <SolutionSection />
       <SectionDivider />
       

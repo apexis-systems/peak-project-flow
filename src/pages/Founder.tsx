@@ -37,7 +37,7 @@ const Founder = () => {
           <AnimatedSection delay={0.1}>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
               <p>
-                The founder of <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> is an architect with over a decade of experience in the architecture and construction industry, working on both residential and commercial projects from concept development to final execution.
+                The founder of <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> is an architect with over a decade of experience in the architecture and construction industry, working on both residential and commercial projects from concept development to final execution.
               </p>
               <p>
                 From 2016 to 2026, he worked at <span className="font-bold text-foreground">Samar Ramachandra Associates</span>, where he rose to the position of <span className="font-bold text-foreground">Senior Associate Architect</span> and later led projects as a <span className="font-bold text-foreground">Studio Head</span>. During this time, he managed the full lifecycle of multiple projects, from initial design vision to overseeing design development, on-site coordination, and project delivery.
@@ -46,7 +46,7 @@ const Founder = () => {
                 He also mentored intern architects, helping bridge the gap between academic learning and professional practice.
               </p>
               <p>
-                Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
+                Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
               </p>
             </div>
           </AnimatedSection>
@@ -57,7 +57,7 @@ const Founder = () => {
                 Mirza Naseer Ahmed Baig
               </h3>
               <p className="text-sm font-medium" style={{ color: '#f97415' }}>
-                Founder, <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span>.
+                Founder, <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span>.
               </p>
               <p className="text-sm text-muted-foreground mt-1">
                 Architect | Industry Experience: 10+ Years

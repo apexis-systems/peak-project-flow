@@ -55,7 +55,7 @@ export function DifferentiationSection() {
               Construction projects involve many professionals working across the site, the office, and the client side.
             </p>
             <p>
-              <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> provides a shared platform where every stakeholder can stay aligned through structured updates, organized communication, and professional reporting.
+              <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> provides a shared platform where every stakeholder can stay aligned through structured updates, organized communication, and professional reporting.
             </p>
           </div>
         </AnimatedSection>
@@ -106,7 +106,7 @@ export function DifferentiationSection() {
             Construction projects succeed when teams stay aligned.
           </p>
           <p className="text-lg font-bold" style={{ color: "#f97415" }}>
-            APEXIS provides the structured communication and reporting layer that connects the entire project team.
+            APEXISpro provides the structured communication and reporting layer that connects the entire project team.
           </p>
         </AnimatedSection>
       </div>

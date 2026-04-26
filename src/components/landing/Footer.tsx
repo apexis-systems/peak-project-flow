@@ -5,7 +5,7 @@ export function Footer() {
     <footer>
       {/* Logo section above footer bar */}
       <div className="flex flex-col items-center py-10 gap-4">
-        <img src={apexisLogoFooter} alt="APEXIS logo" className="h-64 sm:h-72 lg:h-80 w-auto object-contain" />
+        <img src={apexisLogoFooter} alt="APEXISpro logo" className="h-64 sm:h-72 lg:h-80 w-auto object-contain" />
         <div className="flex gap-4 items-center">
           <a href="https://apps.apple.com/app/apexis-record-report-release/id6760482687" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" className="h-[40px]" />
@@ -27,7 +27,7 @@ export function Footer() {
                 <a href="#solution" className="hover:text-foreground transition-colors">How It Works</a>
                 <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
                 
-                <a href="#origin" className="hover:text-foreground transition-colors">About <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></a>
+                <a href="#origin" className="hover:text-foreground transition-colors">About <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span></a>
               </div>
             </div>
 

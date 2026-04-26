@@ -38,7 +38,7 @@ const stages = [
       "Design revisions and technical instructions",
       "3D models and reference visuals for better site understanding",
     ],
-    descAfter: "APEXIS ensures that every release of information is structured, traceable, and professionally documented.",
+    descAfter: "APEXISpro ensures that every release of information is structured, traceable, and professionally documented.",
     graphic: "release-flow",
   },
 ];
@@ -74,7 +74,7 @@ export function SolutionSection() {
             className="text-xs font-bold tracking-widest uppercase mb-4 block"
             style={{ color: "#f97415" }}
           >
-            How APEXIS Works
+            How APEXISpro Works
           </span>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-[1.05]">
             <span style={{ color: "#f97415" }}>Record.</span>{" "}
@@ -142,7 +142,7 @@ export function SolutionSection() {
                     )}
                     {stage.descAfter && (
                       <p className="text-muted-foreground leading-relaxed font-light">
-                        <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> {stage.descAfter.replace("APEXIS ", "")}
+                        <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> {stage.descAfter.replace("APEXISpro ", "")}
                       </p>
                     )}
                   </div>
@@ -200,7 +200,7 @@ export function SolutionSection() {
         {/* Release supporting text */}
         <AnimatedSection className="text-center max-w-2xl mx-auto mb-20">
           <p className="text-muted-foreground leading-relaxed font-light mb-3">
-            <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> creates a structured bridge between the design office, the construction site, and the client.
+            <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> creates a structured bridge between the design office, the construction site, and the client.
           </p>
           <p className="text-muted-foreground leading-relaxed font-light">
             This ensures that instructions, drawings, and updates reach the right people in a clear and organized manner.
@@ -224,7 +224,7 @@ export function SolutionSection() {
         <AnimatedSection className="text-center max-w-2xl mx-auto">
           <p className="text-lg font-bold" style={{ color: "#f97415" }}>
             From site activity to client reporting — everything flows through
-            APEXIS.
+            APEXISpro.
           </p>
         </AnimatedSection>
 
