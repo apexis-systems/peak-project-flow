@@ -138,7 +138,7 @@ export function ProjectChatSection() {
         {/* Closing */}
         <AnimatedSection className="text-center max-w-2xl mx-auto">
           <p className="text-lg font-semibold mb-3 text-primary">
-            Project communication should live where the project lives.
+            Built APEXISpro to eliminate miscommunication, delays, and site-level chaos.
           </p>
           <p className="text-muted-foreground leading-relaxed font-light">
             <span className="font-bold" style={{ color: "#111111" }}>APEXISpro</span> replaces fragmented messaging with structured conversations designed specifically for construction teams.
