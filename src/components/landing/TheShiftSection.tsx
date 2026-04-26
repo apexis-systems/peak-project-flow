@@ -27,7 +27,7 @@ export function TheShiftSection() {
             <p>But project management platforms focus on planning, scheduling, and task allocation.</p>
             <p>What is often missing is the execution documentation layer.</p>
             <p><strong className="font-medium" style={{ color: '#111111' }}>APEXISpro fills this gap.</strong></p>
-            <p>It records real site activity, structures the information, and converts it into professional reporting infrastructure.</p>
+            <p>Helping designers focus on design. Not follow-ups and site confusion.<br />APEXISpro simplifies drawings, snag tracking, and team communication.</p>
           </div>
         </AnimatedSection>
 
