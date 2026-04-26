@@ -65,7 +65,7 @@ export default function Dashboard() {
                 <div className="rounded-xl border border-border/20 bg-card/10 p-6">
                   <h2 className="font-display font-bold mb-4">Recent Activity</h2>
                   <div className="space-y-3">
-                    {["Site inspection uploaded — Block A", "Weekly report generated", "Client dashboard updated", "New media added — 12 photos"].map((item, i) => (
+                    {["Site inspection uploaded, Block A", "Weekly report generated", "Client dashboard updated", "New media added, 12 photos"].map((item, i) => (
                       <div key={i} className="flex items-center gap-3 text-sm">
                         <div className="w-2 h-2 rounded-full bg-primary" />
                         <span className="text-muted-foreground">{item}</span>
