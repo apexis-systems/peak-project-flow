@@ -66,11 +66,6 @@ export function TheShiftSection() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.5} className="max-w-3xl">
-          <p className="text-lg font-display font-semibold text-foreground">
-            <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> is building the execution documentation layer for modern construction projects.
-          </p>
-        </AnimatedSection>
       </div>
     </section>
   );
