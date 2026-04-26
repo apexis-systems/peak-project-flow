@@ -21,7 +21,7 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             <span style={{ color: '#f97415' }}>WhatsApp Updates.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-light">
-            <span className="font-bold" style={{ color: '#111111' }}>APEXISpro</span> is the structured execution layer for modern construction and design teams.
+            Protecting Design Vision, From Concept to Completion.
           </p>
           <p className="text-2xl font-display font-bold mb-10" style={{ color: '#f97415' }}>
             RECORD . REPORT . RELEASE .
