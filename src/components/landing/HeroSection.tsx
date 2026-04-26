@@ -17,15 +17,15 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
           
-          <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.08] tracking-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl font-bold leading-[1.08] tracking-tight mb-6 shadow-none lg:text-3xl">
             Your Projects Deserve <span style={{ color: '#f97415' }}>Better</span> Than{" "}
             <span style={{ color: '#f97415' }}>WhatsApp Updates.</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-light">
+          <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-extrabold shadow-none">
             Protecting Design Vision, From Concept to Completion.
           </p>
-          <p className="text-2xl font-display font-bold mb-10" style={{ color: '#f97415' }}>
-            RECORD . REPORT . RELEASE .
+          <p className="text-2xl font-display mb-10 text-primary font-thin">
+            To get started, Click on the link below!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <a href="https://apps.apple.com/app/apexis-record-report-release/id6760482687" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
