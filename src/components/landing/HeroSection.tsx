@@ -21,10 +21,10 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             Your Projects Deserve <span style={{ color: '#f97415' }}>Better</span> Than{" "}
             <span style={{ color: '#f97415' }}>WhatsApp Updates.</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-extrabold shadow-none">
-            Protecting Design Vision, From Concept to Completion.
+          <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-extrabold shadow-none whitespace-pre-line">
+            {"Protecting Design Vision, \nFrom Concept to Completion."}
           </p>
-          <p className="text-2xl font-display mb-10 text-primary font-thin">
+          <p className="text-base font-display mb-10 text-primary font-thin">
             To get started, Click on the link below!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-center">
