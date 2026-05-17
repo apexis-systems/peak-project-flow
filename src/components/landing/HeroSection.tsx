@@ -36,6 +36,9 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-[50px]" />
             </a>
           </div>
+          <p className="mt-6 text-lg font-semibold" style={{ color: '#f97415' }}>
+            Construction Communication Infrastructure
+          </p>
         </motion.div>
 
         {/* Right - App screenshots */}
