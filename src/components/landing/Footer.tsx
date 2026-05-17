@@ -6,8 +6,8 @@ export function Footer() {
       {/* Logo section above footer bar */}
       <div className="flex flex-col items-center py-10 gap-4">
         <img src={apexisLogoFooter} alt="APEXISpro logo" className="h-64 sm:h-72 lg:h-80 w-auto object-contain" />
-        <p className="text-center text-base sm:text-lg font-light text-foreground max-w-2xl px-4">
-          the new normal is "If it is not on <span className="font-brand" style={{ color: '#f97415' }}>APEXIS</span>, it does not <span className="font-brand" style={{ color: '#f97415' }}>EXIST</span>"
+        <p className="text-center text-base text-foreground max-w-2xl px-4 font-bold sm:text-lg shadow-none">
+          "If it is not on <span className="font-brand" style={{ color: '#f97415' }}>APEXIS</span>, it does not <span className="font-brand" style={{ color: '#f97415' }}>EXIST</span>"
         </p>
         <div className="flex gap-4 items-center">
           <a href="https://apps.apple.com/app/apexis-record-report-release/id6760482687" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-80 transition-opacity">
