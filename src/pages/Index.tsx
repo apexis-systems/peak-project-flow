@@ -18,7 +18,6 @@ import { BeforeAfterSection } from "@/components/landing/BeforeAfterSection";
 import { MetricsSection } from "@/components/landing/MetricsSection";
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { MarqueeSection } from "@/components/landing/MarqueeSection";
-import { PricingSection } from "@/components/landing/PricingSection";
 import { DataPrivacySection } from "@/components/landing/DataPrivacySection";
 import { DataSecuritySection } from "@/components/landing/DataSecuritySection";
 import { BrandStatementSection } from "@/components/landing/BrandStatementSection";
@@ -94,9 +93,8 @@ const Index = () => {
       {/* 13. Social Proof */}
       <TestimonialsSection />
       
-      {/* 14. Metrics + Pricing */}
+      {/* 14. Metrics */}
       <MetricsSection />
-      <PricingSection />
       <SectionDivider />
       
       {/* 15. Data Privacy */}
