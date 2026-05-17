@@ -18,9 +18,9 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
           
           <h1 className="text-4xl sm:text-5xl font-bold leading-[1.08] tracking-tight mb-6 shadow-none lg:text-3xl">
-            Simple Enough For Site Teams,
+            <span style={{ color: '#f97415' }}>Simple</span> Enough For Site Teams,
             <br />
-            Powerful Enough For Studios
+            <span style={{ color: '#f97415' }}>Powerful</span> Enough For Studios.
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-extrabold shadow-none whitespace-pre-line">
             {"Protecting Design Vision, \nFrom Concept to Completion."}
