@@ -7,9 +7,9 @@ const testimonials = [
     quote: "APEXISpro replaced our entire reporting workflow. What used to take my team 4 hours now takes 15 minutes.",
   },
   {
-    name: "Armaan Chaudhary",
-    role: "Interior Design Lead",
-    quote: "Finally, a platform that understands design-build teams. The client dashboard alone changed how we operate.",
+    name: "Ar. Arihant Acharya",
+    role: "Principal Architect, Earth arbour design studio",
+    quote: "An absolute game-changer app developed by an architect for the architecture fraternity. It does a fantastic job of protecting the integrity of designs and drawings while making coordination effortless.",
   },
   {
     name: "Arjun Rao",
@@ -17,9 +17,9 @@ const testimonials = [
     quote: "Structured updates with role-based access. My clients trust the process more because they can see it.",
   },
   {
-    name: "Mohammed Ahmed",
-    role: "Development Manager",
-    quote: "We've reduced project disputes by 60% since implementing APEXISpro. Documented progress speaks for itself.",
+    name: "Ar. Bilal Osmani",
+    role: "Lead Architect, Osmani Associates",
+    quote: "This exceptional application addresses numerous daily challenges commonly faced by architectural firms such as ours. It is an indispensable tool for every architectural and interior design firm.",
   },
 ];
 
