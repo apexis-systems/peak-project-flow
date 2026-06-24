@@ -17,6 +17,7 @@ export default {
         display: ["Space Grotesk", "system-ui", "sans-serif"],
         body: ["Inter", "system-ui", "sans-serif"],
         brand: ["Angelica", "Space Grotesk", "serif"],
+        montserrat: ["Montserrat", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -17,6 +17,12 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
           
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 mb-6">
+            <span className="text-xs sm:text-sm font-bold tracking-wider uppercase font-montserrat" style={{ color: '#f97415' }}>
+              INDIA'S 1st ever Drawing Release Management Software
+            </span>
+          </div>
+
           <h1 className="text-4xl sm:text-5xl font-bold leading-[1.08] tracking-tight mb-6 shadow-none lg:text-3xl">
             <span style={{ color: '#f97415' }}>Simple</span> Enough For Site Teams,
             <br />
