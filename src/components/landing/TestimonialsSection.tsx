@@ -12,9 +12,9 @@ const testimonials = [
     quote: "An absolute game-changer app developed by an architect for the architecture fraternity. It does a fantastic job of protecting the integrity of designs and drawings while making coordination effortless.",
   },
   {
-    name: "Arjun Rao",
-    role: "Project Director",
-    quote: "Structured updates with role-based access. My clients trust the process more because they can see it.",
+    name: "Tauqeer Ahmed",
+    role: "Senior Designer",
+    quote: "This is exactly what has been missing in the industry, whether it be an organisation or for a free lancer. APEXISpro fill a critical gap in communication between clients, consultants, and vendors, making collaboration much more efficient and transparent. The interface is intuitive, user friendly and easy to navigate. The best feature is the quick report generation which saves significant time. Loved the Idea and the software. A much needed tool.",
   },
   {
     name: "Ar. Bilal Osmani",
