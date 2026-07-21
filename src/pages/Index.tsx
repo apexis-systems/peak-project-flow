@@ -27,12 +27,38 @@ import { SocialIconsSection } from "@/components/landing/SocialIconsSection";
 import { Footer } from "@/components/landing/Footer";
 import { SignupModal } from "@/components/landing/SignupModal";
 import { SectionDivider } from "@/components/landing/SectionDivider";
+import { SEO } from "@/components/common/SEO";
+
+const homepageSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "APEXISpro",
+    "operatingSystem": "Web, iOS, Android",
+    "applicationCategory": "BusinessApplication",
+    "description": "Apexis is a smart construction storage documentation and reporting platform built for architects, designers, consultants, builders, and project owners to track site progress, generate reports, and improve project visibility in real time.",
+    "url": "https://apexis.in",
+    "author": {
+      "@type": "Organization",
+      "name": "Apexis",
+      "url": "https://apexis.in",
+      "logo": "https://apexis.in/favicon.png"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "APEXISpro",
+    "url": "https://apexis.in"
+  }
+];
 
 const Index = () => {
   const [signupOpen, setSignupOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO jsonLd={homepageSchema} />
       <ScrollProgress />
       <Navbar onOpenSignup={() => setSignupOpen(true)} />
       
