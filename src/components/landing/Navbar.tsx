@@ -14,8 +14,9 @@ const navLinks: { label: string; href: string; external?: boolean }[] = [
   { label: "Problem", href: "#problem" },
   { label: "Origin", href: "#origin" },
   { label: "Product", href: "#solution" },
-  
+
   { label: "Founder", href: "/founder" },
+  { label: "Blog", href: "/blogs" },
   { label: "Login", href: "https://web.apexis.in/login", external: true },
 ];
 

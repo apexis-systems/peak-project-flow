@@ -39,6 +39,7 @@ export function Footer() {
               <h4 className="font-display font-semibold text-xs tracking-widest uppercase mb-4 text-foreground/60">Company</h4>
               <div className="flex flex-col gap-3 text-sm text-muted-foreground font-light">
                 <a href="#" className="hover:text-foreground transition-colors">Careers</a>
+                <a href="/blogs" className="hover:text-foreground transition-colors">Blog</a>
                 <a href="/terms" className="hover:text-foreground transition-colors">Terms & Conditions</a>
                 <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
                 <a href="#data-security" className="hover:text-foreground transition-colors">Data Security</a>
