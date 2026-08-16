@@ -14,7 +14,7 @@ import { BlogFaqs } from "@/components/blog/BlogFaqs";
 import { BlogShare } from "@/components/blog/BlogShare";
 import { BlogEmptyState } from "@/components/blog/BlogEmptyState";
 import { getBlogById, getBlogs } from "@/services/blogService";
-import { formatBlogDate, normalizeBlog, stripHtml } from "@/lib/blog";
+import { blogKeywords, formatBlogDate, normalizeBlog, stripHtml } from "@/lib/blog";
 
 const SITE_URL = "https://apexis.in";
 
@@ -96,6 +96,8 @@ const BlogDetail = () => {
     );
   }
 
+  const keywords = blogKeywords(blog);
+
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -103,6 +105,7 @@ const BlogDetail = () => {
     description: blog.excerpt,
     image: blog.coverImage,
     datePublished: blog.publishedAt,
+    ...(keywords && { keywords }),
     author: {
       "@type": "Organization",
       name: blog.authorName,
@@ -119,6 +122,7 @@ const BlogDetail = () => {
       <SEO
         title={blog.metaTitle || blog.title}
         description={blog.metaDescription || blog.excerpt}
+        keywords={keywords}
         canonicalUrl={`/blogs/${blog.id}`}
         ogType="article"
         ogImage={blog.coverImage}

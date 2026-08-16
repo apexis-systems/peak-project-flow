@@ -38,6 +38,10 @@ export interface BlogApiResponse {
   cover_image: string;
   coverImage: string;
   tags: string[];
+  primary_keywords: string[];
+  primaryKeywords: string[];
+  secondary_keywords: string[];
+  secondaryKeywords: string[];
   read_time: string;
   readTime: string;
   published_at: string;
@@ -66,6 +70,8 @@ export interface Blog {
   authorAvatar: string;
   coverImage: string;
   tags: string[];
+  primaryKeywords: string[];
+  secondaryKeywords: string[];
   readTime: string;
   publishedAt: string;
 }
